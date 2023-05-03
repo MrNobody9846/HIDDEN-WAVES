@@ -1,7 +1,9 @@
-# HIDDEN-WAVES
-**Team Name:** Hiddenlayers
 
-**Team Members:** AnjaliPriya (190101012)
+# Hiddenlayers
+
+**Team Members:** 
+
+AnjaliPriya (190101012)
 
 Nancy (190101057)
 
@@ -13,18 +15,26 @@ Bodele Gaurav Jayant (190101027)
 
 Shrey Verma (190101083)
 
-**Project Title:** Gravitational Wave Detection
+**Project Title:** 
 
-**Objective:** To build a model to analyze simulated GW time-series data
+Gravitational Wave Detection
+
+**Objective:** 
+
+To build a model to analyze simulated GW time-series data
 from a network of Earth-based detectors.
 
-**Background:** Einstein predicted that something special happens when
+**Background:** 
+
+Einstein predicted that something special happens when
 two bodies- such as planets or stars-orbit each other. He believed that
 this kind of movement could cause ripples in space. These ripples would
 spread out like the ripples in a pond when a stone is tossed in.
 Scientists call these invisible ripples of space gravitational waves.
 
-**Methodology:** We will use the dataset provided by the LIGO from three
+**Methodology:** 
+
+We will use the dataset provided by the LIGO from three
 different sites to train and test the model. Before applying DFT we will
 apply the window function like Tuckey Window to avoid spectral leakage.
 Then will apply DFT to analyze and differentiate patterns between noise
@@ -67,11 +77,14 @@ labels are provided (Target=1 means GW is present in the sample).
 Samples are equally distributed (Equal number of samples with target=1
 and target=0).
 
-Testing dataset: consists of similar Time series data. The task is to
+**Testing dataset:** 
+
+consists of similar Time series data. The task is to
 predict the probability that the observation contains a gravitational
 wave.
 
-**References:** B. P. Abbott et al.(2016) Observation of Gravitational
-Waves from a Binary Black Hole Merger; M. Bailes et al. (2021)
-Gravitational-wave physics and astronomy in the 2020s and 2030s.; L
-Ju et al (2000) Detection of gravitational waves
+**References:** 
+
+B. P. Abbott et al.(2016) Observation of Gravitational Waves from a Binary Black Hole Merger; 
+M. Bailes et al. (2021) Gravitational-wave physics and astronomy in the 2020s and 2030s.; 
+L Ju et al (2000) Detection of gravitational waves
